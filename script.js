@@ -1,3 +1,9 @@
+const Author = "Abdul Rehman Jiwani"
+const Made = "Developed by Abdul Rehman Jiwani"
+
+console.log("The Author of this Calculator is " + Author)
+console.log("This Calculator is " + Made)
+
 function display(v) {
     document.getElementById('result').value += v;
 }

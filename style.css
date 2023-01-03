@@ -6,6 +6,9 @@ body {
     height: 100%;
     overflow: hidden;
     font-family: 'Ubuntu', sans-serif;
+    background-image: url(/Assets/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box {
@@ -23,15 +26,16 @@ body {
     border-radius: 9px;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.5);
+    font-size: 12pt;
 }
 
 .row {
-    margin: 8px 15px;
+    margin: 5px 15px;
 }
 
 .row input {
     width: 291px;
-    font-size: 30px;
+    font-size: 24pt;
     margin: 7px 4px;
     padding: 28px 0px;
     border: none;
