@@ -6,7 +6,7 @@ body {
     height: 100%;
     overflow: hidden;
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(/Assets/Background.jpg);
+    background-image: url(Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
