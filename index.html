@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="I made this Simple Calculator which fulfills your requirements about Calculations. It is the basic and Simple Calulator. I made this Calculator using HTML5, CSS3, and some JavaScript. This is the first Calculator which I made. Use your open source Calulator and Enjoy!">
+    <meta name="keywords" content="html, CSS3, CSS, Calculator, Simple Calculator, Calculations">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <meta name="google-site-verification" content="cRhjKZGzyzWVEM6MN-UYpss1n3tTtlUeh60sBjekLik">
+
+    <!-- title -->
+    <title>Calculator - Perform Simple Calculations</title>
+
+    <!-- Cascading Stylesheets Links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="media.css">
+
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container d-flex flex-col items-center mx-auto px-75">
+        <div class="box">
+            <div class="row">
+                <input type="text" class="input" disabled id="result">
+            </div>
+            <div class="row">
+                <button class="btn" value="C" onclick="Clearscreen(),Clearsound()">C</button>
+                <button class="btn" value="" onclick="">M+</button>
+                <button class="btn" value="" onclick="">M-</button>
+                <button class="btn" value="%" onclick="display('%'),Operatorsound()">%</button>
+            </div>
+            <div class="row">
+                <button class="btn" value="7" onclick="display('7'),Keysound()">7</button>
+                <button class="btn" value="8" onclick="display('8'),Keysound()">8</button>
+                <button class="btn" value="9" onclick="display('9'),Keysound()">9</button>
+                <button class="btn" value="/" onclick="display('/'),Operatorsound()">/</button>
+            </div>
+            <div class="row">
+                <button class="btn" value="4" onclick="display('4'),Keysound()">4</button>
+                <button class="btn" value="5" onclick="display('5'),Keysound()">5</button>
+                <button class="btn" value="6" onclick="display('6'),Keysound()">6</button>
+                <button class="btn" value="*" onclick="display('*'),Operatorsound()">*</button>
+            </div>
+            <div class="row">
+                <button class="btn" value="1" onclick="display('1'),Keysound()">1</button>
+                <button class="btn" value="2" onclick="display('2'),Keysound()">2</button>
+                <button class="btn" value="3" onclick="display('3'),Keysound()">3</button>
+                <button class="btn" value="-" onclick="display('-'),Operatorsound()">-</button>
+            </div>
+            <div class="row">
+                <button class="btn" value="0" onclick="display('0'),Keysound()">0</button>
+                <button class="btn" value="." onclick="display('.'),Keysound()">.</button>
+                <button class="btn" value="=" onclick="resultdata(),Operatorsound()">=</button>
+                <button class="btn" value="+" onclick="display('+'),Operatorsound()">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="sound.js"></script>
+</body>
+
+</html>
